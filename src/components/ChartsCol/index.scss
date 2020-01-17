@@ -1,0 +1,34 @@
+.charts-col {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+
+  .body {
+    position: absolute;
+    top: 2.2em;
+    left: 0.2em;
+    right: 0.2em;
+    bottom: 0;
+  }
+
+  .charts {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.notice-text {
+  position: absolute;
+  top: 0em;
+  right: 2em;
+  font-size: 1.6em;
+  z-index: 9;
+
+  span {
+    padding: 0 0.4em;
+  }
+
+  .num {
+    font-size: 1.8em;
+  }
+}

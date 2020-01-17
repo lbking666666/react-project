@@ -1,0 +1,99 @@
+$mainColor: rgba(186, 91, 255, 0.15);
+$borderColor: #0f1755;
+$red: #ff6316;
+$orange: #ffe400;
+$fontColor: #07e5ff;
+
+.icon {
+  color: $fontColor;
+}
+
+.list-col {
+  border: 0.1em solid #4bb8df;
+
+  .header {
+    border-bottom: 0.1em solid #4bb8df;
+  }
+
+  &.active {
+    border-color: #ffe400;
+
+    .header {
+      border-color: #ffe400;
+    }
+  }
+}
+
+.main-wrapper .map-box {
+  border: 0.1em solid $borderColor;
+  background-image: radial-gradient(farthest-corner at 50% 50%, #3169f5, #2753c2, #19398a, #11265b);
+}
+
+.charts-module {
+  background: $mainColor;
+  border: 0.1em solid $borderColor;
+}
+
+.info-box .info-col .info-content {
+  border: 0.1em solid #4bb8df;
+
+  .header {
+    border-bottom: 0.1em solid #4bb8df;
+
+    h3 {
+      color: $fontColor;
+    }
+  }
+}
+
+.block-module .block-link .container .list .rows .block .text {
+  color: $fontColor;
+}
+
+.block-module .block-link .container .list .rows .block .text+.content {
+  border-left: 0.1em solid $borderColor;
+}
+
+.map-border {
+  opcity: 0.2 !important;
+}
+
+.ant-select .ant-select-arrow {
+  color: #68d8fe;
+}
+
+.ant-select .ant-select-selection {
+  background: transparent;
+  color: #68d8fe;
+  border: 0.1em solid #0090ff;
+  border-radius: 0.2em;
+}
+
+.num {
+  color: $fontColor;
+  cursor: pointer;
+}
+
+.red {
+  color: $red !important;
+}
+
+.orange {
+  color: $orange !important;
+}
+
+.ant-calendar-picker .ant-input {
+  background: #0e2b53 !important;
+  border: 0.1em solid $borderColor;
+  color: #68d8fe;
+}
+
+.ant-calendar-range-picker-separator,
+.ant-calendar-picker-clear,
+.ant-calendar-picker-icon {
+  color: #68d8fe !important;
+}
+
+.ant-calendar-range-picker-input::-webkit-input-placeholder {
+  color: #68d8fe !important;
+}

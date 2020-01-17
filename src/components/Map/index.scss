@@ -1,0 +1,138 @@
+.map-module {
+  height: 100%;
+  position: relative;
+
+  &:before {
+    content: '';
+    width: 3em;
+    height: 1.6em;
+    position: absolute;
+    top: -0.08em;
+    left: -0.08em;
+    z-index: 5;
+    border-top: 0.16em solid #68d8fe;
+    border-left: 0.16em solid #68d8fe;
+  }
+
+  &:after {
+    content: '';
+    width: 3em;
+    height: 1.6em;
+    position: absolute;
+    top: -0.08em;
+    right: -0.08em;
+    z-index: 5;
+    border-top: 0.16em solid #68d8fe;
+    border-right: 0.16em solid #68d8fe;
+  }
+
+  .header {
+    line-height: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0 1.2em;
+    z-index: 3;
+
+    h3 {
+      font-size: 1.2em;
+      color: #fff;
+    }
+  }
+
+  .body {
+    height: 100%;
+    padding: 0.1em;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+
+    .map {
+      width: 100%;
+      height: 100%;
+      padding: 2em;
+    }
+
+    .nanji-map {
+      position: absolute;
+      bottom: -90%;
+      left: -23%;
+      width: 100%;
+      height: 100%;
+      transform: scale(3, 1);
+    }
+  }
+
+  .footer-total {
+    position: absolute;
+    bottom: 8.6em;
+    left: 2.4em;
+    height: 3.2em;
+    z-index: 3;
+  }
+
+  .map-legend {
+    position: absolute;
+    top: 1em;
+    left: 2.4em;
+    right: 2.4em;
+
+    .legend-col {
+      display: inline-block;
+      border: 0.1em solid #0090ff;
+      padding: 0.2em 0.8em;
+      border-radius: 0.4em;
+      font-size: 1em;
+      margin: 0 0.4em;
+      line-height: 2em;
+
+      &.col-0 {
+        color: #e88b00;
+
+        i {
+          background: #e88b00;
+        }
+      }
+
+      &.col-1 {
+        i {
+          background: #fff;
+        }
+      }
+
+      &.col-2 {
+        color: #0090ff;
+
+        i {
+          background: #0090ff;
+        }
+      }
+
+      &.col-3 {
+        color: #1e9a87;
+
+        i {
+          background: #1e9a87;
+        }
+      }
+
+      i {
+        vertical-align: middle;
+        display: inline-block;
+        width: 0.4em;
+        height: 0.4em;
+        border-radius: 50%;
+        background: #fff;
+        margin: 0 0.4em 0 0.2em;
+
+      }
+    }
+  }
+}
+
+.tooltip {
+  font-size: 2em;
+  color: #f00;
+}

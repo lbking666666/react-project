@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.mapName {
+  color: #f00;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background: #1a2165 !important;
+  color: #fff !important;
+  font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+dd,
+dt,
+dl {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+/* 媒体查询 */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 8px !important;
+  }
+
+  .iconfont,
+  .ant-table,
+  .ant-pagination {
+    font-size: 8px !important;
+  }
+
+  .highcharts-root {
+    font-size: 8px !important;
+  }
+  .highcharts-title {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  body {
+    font-size: 9px !important;
+  }
+
+  .iconfont,
+  .ant-table,
+  .ant-pagination {
+    font-size: 9px !important;
+  }
+
+  .highcharts-root {
+    font-size: 8px !important;
+  }
+
+  .highcharts-title {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  body {
+    font-size: 11px !important;
+  }
+
+  .iconfont,
+  .ant-table,
+  .ant-pagination {
+    font-size: 11px !important;
+  }
+
+  .highcharts-root {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 1681px) {
+  body {
+    font-size: 13.6px !important;
+  }
+
+  .iconfont,
+  .ant-table,
+  .ant-pagination {
+    font-size: 13.6px !important;
+  }
+
+  .highcharts-root {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  html,
+  body,
+  #root {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    font-size: 18px !important;
+  }
+
+  .iconfont,
+  .ant-table,
+  .ant-pagination {
+    font-size: 18px !important;
+  }
+
+  .highcharts-root {
+    font-size: 18px !important;
+  }
+}

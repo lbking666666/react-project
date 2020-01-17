@@ -1,0 +1,23 @@
+.charts-module {
+  width: 100%;
+  height: 100%;
+
+  .header {
+    font-size: 1.2em;
+    padding: 0 1em;
+    line-height: 2.2em;
+  }
+
+  .body {
+    position: absolute;
+    top: 2.2em;
+    left: 0.2em;
+    right: 0.2em;
+    bottom: 0;
+  }
+
+  .charts {
+    height: 100%;
+    width: 100%;
+  }
+}
